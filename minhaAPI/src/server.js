@@ -2,6 +2,7 @@ const express = require('express')
 const server = express()
 const dados = require('./data/dados.json')
 const fs = require('fs')
+const { parse } = require('path')
 
 // Função para utilizar o servidor
 server.use(express.json())
@@ -54,6 +55,18 @@ server.put('/usuarios/:id', (req, res) =>{
         salvarDados(dados)
         res.json({mensagem: "Usuário atualizado com sucesso :3"})
     }
+})
+
+//Função para deletar usuário
+
+server.delete('/usuarios/:id', (req, res) =>{
+    const usuarioId = parseInt(req.params.id)
+
+    dados.users = dados.users.filter(u => u.id != usuarioId)
+
+    salvarDados(dados)
+
+    return res.status(200).json({mensagem: 'Usuário deletado com sucesso >:3'})
 })
 
 function salvarDados (){
