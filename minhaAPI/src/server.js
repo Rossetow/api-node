@@ -2,7 +2,6 @@ const express = require('express')
 const server = express()
 const dados = require('./data/dados.json')
 const fs = require('fs')
-const { isDataView } = require('util/types')
 
 // Função para utilizar o servidor
 server.use(express.json())
@@ -46,11 +45,14 @@ server.put('/usuarios/:id', (req, res) =>{
         //atualiza o nome
         dados.users[idUsuario].nome = atualizarUsuario.nome || dados.users[idUsuario].nome
 
-        //atualiza a idade
+        //atualiza o idade
         dados.users[idUsuario].idade = atualizarUsuario.idade || dados.users[idUsuario].idade
 
         //atualiza o curso
         dados.users[idUsuario].curso = atualizarUsuario.curso || dados.users[idUsuario].curso
+
+        salvarDados(dados)
+        res.json({mensagem: "Usuário atualizado com sucesso :3"})
     }
 })
 
