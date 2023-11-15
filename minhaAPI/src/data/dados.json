@@ -1,10 +1,4 @@
 {
-  "users": [
-    {
-      "id": 1,
-      "nome": "iuri",
-      "idade": 12,
-      "curso": "tranquei o curso"
-    }
-  ]
+  "users": [],
+  "cursos": []
 }
