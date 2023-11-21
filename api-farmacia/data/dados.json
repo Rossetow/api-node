@@ -1,0 +1,36 @@
+{
+  "medicamento": [
+    {
+      "id": 1,
+      "nome": "Zolpidem",
+      "fornecedor": "Genérico",
+      "preco": 20.5,
+      "quantidade": 1
+    }
+  ],
+  "cliente": [
+    {
+      "id": 1,
+      "nome": "Rafael",
+      "endereco": "R. Senac, 123",
+      "email": "rafael@gmail.com",
+      "telefone": "123456789"
+    }
+  ],
+  "fornecedor": [
+    {
+      "id": 1,
+      "nome": "Genérico",
+      "endereco": "R. Sao leopoldo, 123",
+      "telefone": "123456789"
+    }
+  ],
+  "venda": [
+    {
+      "id": 1,
+      "data": "20/11/2023",
+      "idMedicamento": 1,
+      "idCliente": 1
+    }
+  ]
+}

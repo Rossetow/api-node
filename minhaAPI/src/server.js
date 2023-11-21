@@ -98,7 +98,7 @@ server.put('/cursos/:id', (req, res) =>{
     } else {
         //atualiza o nome
         dados.cursos[idCurso].nome_curso = atualizarCurso.nome_curso || dados.cursos[idCurso].nome_curso
-
+        
         //atualiza o idade
         dados.cursos[idCurso].ch_curso = atualizarCurso.ch_curso || dados.cursos[idCurso].ch_curso
 
