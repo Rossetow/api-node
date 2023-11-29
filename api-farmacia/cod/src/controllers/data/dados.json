@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "nome": "teste",
+      "idade": 20,
+      "curso": "backend web"
+    },
+    {
+      "id": 2,
+      "nome": "teste dois",
+      "idade": 23,
+      "curso": "frontend web"
+    },
+    {
+      "id": 3,
+      "nome": "teste tres",
+      "idade": 29,
+      "curso": "banco de dados"
+    },
+    {
+      "id": 5,
+      "nome": "Iuri Santos",
+      "idade": 35,
+      "curso": "ciencia da computacao"
+    }
+  ],
+
+  "cursos":[
+    {
+      "id_curso": 1,
+      "nome_curso": "backend web",
+      "ch_curso": 96,
+      "professor": "teste"
+    }
+  ]
+}

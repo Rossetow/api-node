@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Clientes</title>
+    <style>
+        label{
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Gerenciamento de Clientes</h1>
+    <h2>Adicionar Cliente</h2>
+    <form id="formAdicionarCliente">
+        <label for="idCliente">ID: </label>
+        <input type="text" id="idCliente" name="idCliente" required>
+
+        <label for="nomeCliente">Nome: </label>
+        <input type="text" id="nomeCliente" name="nomeCliente" required>
+        
+        <label for="enderecoCliente">Endereço: </label>
+        <input type="text" id="enderecoCliente" name="enderecoCliente" required>
+
+        <label for="emailCliente">Email: </label>
+        <input type="text" id="emailCliente" name="emailCliente" required>
+
+
+        <label for="telefoneCliente">Telefone: </label>
+        <input type="text" id="telefoneCliente" name="telefoneCliente" required>
+    
+        <button type="button" onclick="adicionarCliente()">Adicionar</button>
+    </form>
+
+    <h2>Listar Clientes</h2>
+    <ul id="listaClientes"></ul>
+
+    <script src="../clients/clientes.js"></script>
+</body>
+</html>

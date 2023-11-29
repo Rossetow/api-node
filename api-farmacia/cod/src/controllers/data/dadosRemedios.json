@@ -1,0 +1,32 @@
+{
+  "Remedio": [
+    {
+      "id": 1,
+      "nome": "Rivotril",
+      "Fornecedor": "Genérico",
+      "preco": "20",
+      "quantidade": "10"
+    },
+    {
+      "id": "2",
+      "nome": "Dorflex",
+      "fornecedor": "Kassino",
+      "preco": "55",
+      "quantidade": "12"
+    },
+    {
+      "id": "3",
+      "nome": "Dipirona",
+      "fornecedor": "Iuri",
+      "preco": "30",
+      "quantidade": "1"
+    },
+    {
+      "id": "4",
+      "nome": "Sulfato de sabultamol",
+      "fornecedor": "Rafael",
+      "preco": "0",
+      "quantidade": "100"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "Cliente": [
+    {
+      "id": 1,
+      "nome": "Teste",
+      "endereco": "Teste",
+      "email": "Teste",
+      "Telefone": 123
+    },
+    {
+      "id": "2",
+      "nome": "Teste Dois",
+      "endereco": "1234",
+      "email": "teste@gmail.com",
+      "telefone": "12345"
+    },
+    {
+      "id": "3",
+      "nome": "Teste Tres",
+      "endereco": "alo",
+      "email": "teste@teste.com",
+      "telefone": "1092830921"
+    },
+    {
+      "id": "4",
+      "nome": "Rafael",
+      "endereco": "R. Senac",
+      "email": "rafael@gmail.com",
+      "telefone": "12345679"
+    }
+  ]
+}

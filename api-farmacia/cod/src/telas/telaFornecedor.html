@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Clientes</title>
+    <style>
+        label{
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Gerenciamento de Fornecedores</h1>
+    <h2>Adicionar Fornecedor</h2>
+    <form id="formAdicionarFornecedores">
+        <label for="idFornecedor">ID: </label>
+        <input type="text" id="idFornecedor" name="idFornecedor" required>
+
+        <label for="nomeFornecedor">Nome: </label>
+        <input type="text" id="nomeFornecedor" name="nomeFornecedor" required>
+        
+        <label for="enderecoFornecedor">Endereço: </label>
+        <input type="text" id="enderecoFornecedor" name="enderecoFornecedor" required>
+
+        <label for="telefoneFornecedor">Telefone: </label>
+        <input type="text" id="telefoneFornecedor" name="telefoneFornecedor" required>
+
+        <button type="button" onclick="adicionarFornecedores()">Adicionar</button>
+    </form>
+
+    <h2>Listar Fornecedor</h2>
+    <ul id="listaFornecedores"></ul>
+
+    <script src="../clients/fornecedores.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+npm install express
+npm install nodemon
+npm init
+localhost:3000/usuarios
+
+estrutura da tabela usuarios:
+{
+            "id": 1,
+            "nome": "teste",
+            "idade": 20,
+            "curso": "backend web"
+        }

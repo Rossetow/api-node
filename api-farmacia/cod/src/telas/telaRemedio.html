@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Clientes</title>
+    <style>
+        label{
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Gerenciamento de Medicamentos</h1>
+    <h2>Adicionar Remédio</h2>
+    <form id="formAdicionarRemedio">
+        <label for="idRemedio">ID: </label>
+        <input type="text" id="idRemedio" name="idRemedio" required>
+
+        <label for="nomeRemedio">Nome: </label>
+        <input type="text" id="nomeRemedio" name="nomeRemedio" required>
+        
+        <label for="fornecedorRemedio">Fornecedor: </label>
+        <input type="text" id="fornecedorRemedio" name="fornecedorRemedio" required>
+
+        <label for="precoRemedio">Preco: </label>
+        <input type="text" id="precoRemedio" name="precoRemedio" required>
+
+        <label for="qtdRemedio">Quantidade: </label>
+        <input type="text" id="qtdRemedio" name="qtdRemedio" required>
+    
+        <button type="button" onclick="adicionarRemedio()">Adicionar</button>
+    </form>
+
+    <h2>Listar Remédios</h2>
+    <ul id="listaRemedios"></ul>
+
+    <script src="../clients/remedios.js"></script>
+</body>
+</html>

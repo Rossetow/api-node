@@ -1,0 +1,10 @@
+{
+    "Fornecedor":[
+        {
+            "id": 1,
+            "nome": "Adriano",
+            "telefone": "12345",
+            "endereco": "Rua Senac"
+        }
+    ]
+}
